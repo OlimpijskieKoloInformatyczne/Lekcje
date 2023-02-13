@@ -14,18 +14,12 @@ int main() {
  grupy.insert(20);
  grupy.insert(15);
 
- it = grupy.begin(); //wskaznik na pierwszy element
- cout << *it << endl;
- 
- ++it; //wsskaznik na drugi
- cout << *it << endl;
+//it od *it
 
- ++it; //wskaznik na 3
- cout << *it << endl;
- 
-
-
- 
+ for (it=grupy.begin(); it!=grupy.end(); ++it)
+    cout << *it << " ";
+ cout << endl;
  return 0;
 }
+
 
